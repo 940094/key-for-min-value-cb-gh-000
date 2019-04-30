@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   end
 
   lowest_priced = ""
-  previous_value = 9999
+  previous_value = 999999999
 
   name_hash.collect do |name, value|
       if value < previous_value # if value is lower, store the key
