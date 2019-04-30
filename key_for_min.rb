@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
       value # if value is lower, store the key
   end
 
-  previous_value = previous_value[0]
+  previous_value = 9999
   puts previous_value
 
   name_hash.collect do |name, value|
