@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash == nil
     return nil
+  end
 
   lowest_priced = ""
   previous_value = 9999
