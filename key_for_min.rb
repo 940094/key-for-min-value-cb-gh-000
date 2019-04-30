@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   end
 
   lowest_priced = ""
-  previous_value = 999999999
+  previous_value = 999
 
   name_hash.collect do |name, value|
       if value < previous_value # if value is lower, store the key
@@ -17,6 +17,3 @@ def key_for_min_value(name_hash)
   end
   return lowest_priced
 end
-
-ikea = {:chair => 25, :table => 85, :mattress => 450}
-key_for_min_value(ikea)
