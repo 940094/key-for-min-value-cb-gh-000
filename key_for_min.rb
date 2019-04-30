@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
 
   name_hash.collect do |name, value|
       if value < previous_value # if value is lower, store the key
-        puts value
+        puts previous_value = value
       end
   end
 
